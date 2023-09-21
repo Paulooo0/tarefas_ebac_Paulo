@@ -1,0 +1,46 @@
+INÍCIO
+1. Acordar;
+2. Abrir os olhos;
+3. Levantar da cama;
+4. Colocar os calçados;
+5. Ir até a porta do quarto;
+6. Se a porta estiver fechada;
+    1. Colocar a chave na fechadura;
+    2. Virar a chave em 360 graus;
+    3. Colocar a mão na maçaneta;
+    4. Girar a maçaneta;
+    5. Puxar a porta;
+7. Se a porta não estiver fechada;
+    1. Colocar a mão na maçaneta;
+    2. Girar a maçaneta;
+    3. Puxar a porta;
+8. Ir até o banheiro;
+9. Entrar no banheiro;
+10. Pegar a escova de dentes;
+11. Colocar pasta na escova;
+12. Escovar os dentes;
+13. Enxaguar a boca;
+14. Cuspir a água;
+15. Secar o rosto;
+16. Sair do banheiro;
+17. Fechar a porta do banheiro;
+18. Ir até a cozinha;
+19. Se não tem café pronto;
+    1. Pegar um fervedor (caneca de esquentar água);
+    2. Colocar água no fervedor;
+    3. Ligar o fogão;
+    4. Colocar a água no fervedor para ferver.
+    5. Pegar a jarra de café;
+    6. Pegar o coador;
+    7. Colocar o coador na jarra;
+    8. Pegar o filtro de café;
+    9. Colocar o filtro no coador;
+    10. Pegar o pó de café;
+    11. Colocar o pó no coador;
+    12. Despejar a água quente no coador;
+    13. Tirar o coador;
+    14. Tampar a jarra;
+20. Pegar uma xícara;
+21. Despejar o café na xícara;
+22. Degustar o seu café;
+FIM
