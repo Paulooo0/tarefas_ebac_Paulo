@@ -1,3 +1,13 @@
+/**
+ * The Dog class represents a dog and has properties such as breed, sex, age, and color.
+ * <br></br>
+ * A classe Dog representa um cachorro e possui propriedades como raça, sexo, idade e cor.
+ * <ul>
+ * <li>@author Paulo H. Nunes</li>
+ * <li>@version 1.0</li>
+ * <li>@since 1.0</li>
+ */
+
 public class Dog {
     private String breed;
     private String sex;
