@@ -4,12 +4,27 @@ public class VarConverter {
         
         int num = convertArg(input);
         convertInt(num);
-        System.out.println("Integer value: " + convertInt(num));
+
+        if (args.length == 1) {
+            System.out.println("Valor do Integer: " + convertInt(num));
+        } else {
+            System.out.print("Formato invalido: ");
+            for (String arg : args) {
+                System.out.print(arg + " ");
+            }
+            System.out.println("\nDigite apenas um valor");
+        }
+        
     }
     
     public static int convertArg(String input) {
-        int num = Integer.parseInt(input);
-        return num;
+        try {
+            int num = Integer.parseInt(input);
+            return num;
+        } catch (NumberFormatException e) {
+            System.out.println("Não é um numero: " + input);
+            throw e;
+        }
     }
 
     public static Integer convertInt(int num) {
