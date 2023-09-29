@@ -9,7 +9,7 @@ public class ReadName {
 
     private static String getNames() {
         Scanner s = new Scanner(System.in);
-        System.out.println("Digite os nommes separados por virgula\n");
+        System.out.println("Digite os nomes separados por virgula\n");
         String names = s.nextLine();
 
         return names;
