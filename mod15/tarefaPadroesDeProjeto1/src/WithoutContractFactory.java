@@ -1,3 +1,7 @@
+import cars.Car;
+import cars.Celta;
+import cars.Corsa;
+
 public class WithoutContractFactory extends Factory {
     @Override
     Car retrieveCar(String requestedGrade) {
