@@ -1,3 +1,3 @@
 @Tabela(name = "Tabela")
-public class Anotations {
+public class Main {
 }
