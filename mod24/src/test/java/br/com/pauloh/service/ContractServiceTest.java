@@ -25,7 +25,7 @@ public class ContractServiceTest {
     }
 
     @Test
-    public void testRead() {
+    public void testSearch() {
         IContractDAO dao = new ContractDAOMock();
         IContractService service = new ContractService(dao);
         String success = service.search();
@@ -33,7 +33,7 @@ public class ContractServiceTest {
     }
 
     @Test(expected = UnsupportedOperationException.class)
-    public void testReadError() {
+    public void testSearchError() {
         IContractDAO dao = new ContractDAO();
         IContractService service = new ContractService(dao);
         String success = service.search();
