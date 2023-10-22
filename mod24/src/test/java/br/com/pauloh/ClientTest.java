@@ -8,8 +8,9 @@ public class ClientTest {
     @Test
     public void testClient() {
         Client client = new Client();
+
 		client.adicionarNome("Paulo");
 
-		Assert.assertEquals("Paulo.", client.getNome());
+		Assert.assertEquals("Paulo", client.getNome());
     }
 }
