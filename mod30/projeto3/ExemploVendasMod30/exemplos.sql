@@ -8,6 +8,7 @@ create table tb_cliente (
 	numero bigint not null,
 	cidade varchar(50) not null,
 	estado varchar(50) not null,
+	email varchar(50) not null,
 	constraint pk_id_cliente primary key(id)
 );
 
@@ -18,6 +19,7 @@ create table tb_produto(
 	nome varchar(50) not null,
 	descricao varchar(100) not null,
 	valor numeric(10,2) not null,
+	categoria varchar(30) not null,
 	constraint pk_id_produto primary key(id)
 );
 
@@ -74,7 +76,7 @@ ADD CONSTRAINT UK_CODIGO_VENDA UNIQUE (CODIGO);
 
 
 SELECT V.ID AS ID_VENDA, V.CODIGO, V.ID_CLIENTE_FK, V.VALOR_TOTAL, V.DATA_VENDA, V.STATUS_VENDA,
-C.ID AS ID_CLIENTE, C.NOME, C.CPF, C.TEL, C.ENDERECO, C.NUMERO, C.CIDADE, C.ESTADO,
+C.ID AS ID_CLIENTE, C.NOME, C.CPF, C.TEL, C.ENDERECO, C.NUMERO, C.CIDADE, C.ESTADO, C.EMAIL,
 P.ID AS ID_PROD_QTD, P.QUANTIDADE, P.VALOR_TOTAL AS PROD_QTD_VALOR_TOTAL
 FROM TB_VENDA V 
 INNER JOIN TB_CLIENTE C ON V.ID_CLIENTE_FK = C.ID
@@ -83,6 +85,6 @@ WHERE V.CODIGO = 'A1';
 
 
 SELECT PQ.ID, PQ.QUANTIDADE, PQ.VALOR_TOTAL,
-P.ID AS ID_PRODUTO, P.CODIGO, P.NOME, P.DESCRICAO, P.VALOR
+P.ID AS ID_PRODUTO, P.CODIGO, P.NOME, P.DESCRICAO, P.VALOR, P.CATEGORIA
 FROM TB_PRODUTO_QUANTIDADE PQ
 INNER JOIN TB_PRODUTO P ON P.ID = PQ.ID_PRODUTO_FK;

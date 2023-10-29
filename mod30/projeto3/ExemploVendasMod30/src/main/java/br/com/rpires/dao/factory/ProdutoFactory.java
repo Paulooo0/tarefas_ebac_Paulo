@@ -22,6 +22,7 @@ public class ProdutoFactory {
 		prod.setNome(rs.getString("NOME"));
 		prod.setDescricao(rs.getString("DESCRICAO"));
 		prod.setValor(rs.getBigDecimal("VALOR"));
+		prod.setCategoria(rs.getString("CATEGORIA"));
 		return prod;
 	}
 }

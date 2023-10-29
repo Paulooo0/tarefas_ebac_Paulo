@@ -39,6 +39,7 @@ public class ProdutoServiceTest {
 		produto.setDescricao("Produto 1");
 		produto.setNome("Produto 1");
 		produto.setValor(BigDecimal.TEN);
+		produto.setCategoria("Categoria 1");
 	}
 	
 	@Test
@@ -59,10 +60,10 @@ public class ProdutoServiceTest {
 	}
 	
 	@Test
-	public void alterarCliente() throws TipoChaveNaoEncontradaException, DAOException {
-		produto.setNome("Rodrigo Pires");
+	public void alterarProduto() throws TipoChaveNaoEncontradaException, DAOException {
+		produto.setNome("Produto 2");
 		produtoService.alterar(produto);
 		
-		Assert.assertEquals("Rodrigo Pires", produto.getNome());
+		Assert.assertEquals("Produto 2", produto.getNome());
 	}
 }
