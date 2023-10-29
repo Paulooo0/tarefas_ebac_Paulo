@@ -60,6 +60,12 @@ public class Venda implements Persistente {
 		produtos = new HashSet<>();
 	}
 
+	private Estoque estoque;
+    
+    public Venda(Estoque estoque) {
+        this.estoque = estoque;
+    }
+
 	public String getCodigo() {
 		return codigo;
 	}
@@ -142,6 +148,10 @@ public class Venda implements Persistente {
 		}
 		this.valorTotal = valorTotal;
 	}
+
+	public void reduzirQuantidadeProduto(ProdutoQuantidade produto, Integer quantidade) {
+        estoque.reduzirQuantidadeProduto(produto, quantidade);
+    }
 
 	public BigDecimal getValorTotal() {
 		return valorTotal;

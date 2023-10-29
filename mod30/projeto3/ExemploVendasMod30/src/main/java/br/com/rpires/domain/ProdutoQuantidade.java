@@ -27,10 +27,21 @@ public class ProdutoQuantidade {
 	@ColunaTabela(dbName = "valor_total", setJavaName = "setValorTotal")
 	private BigDecimal valorTotal;
 	
+	private Estoque estoque;
+
+    public ProdutoQuantidade(Estoque estoque) {
+		this();
+        this.estoque = estoque;
+    }
+
 	public ProdutoQuantidade() {
 		this.quantidade = 0;
 		this.valorTotal = BigDecimal.ZERO;
 	}
+
+    public void adicionarQuantidade(Integer quantidade) {
+        estoque.adicionarQuantidadeProduto(this, quantidade);
+    }
 
 	public Produto getProduto() {
 		return produto;

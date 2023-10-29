@@ -35,6 +35,10 @@ public class Produto implements Persistente {
 
 	@ColunaTabela(dbName = "categoria", setJavaName = "setCategoria")
 	private String categoria;
+    
+	public Produto() {
+		
+	}
 
 	public String getCategoria() {
 		return categoria;
