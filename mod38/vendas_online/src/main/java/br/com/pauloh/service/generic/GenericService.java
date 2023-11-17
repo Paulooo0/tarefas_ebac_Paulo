@@ -25,8 +25,8 @@ public class GenericService<T> implements IGenericService<T> {
 
     @Override
     public T read(UUID id) {
-        entityManager.find(entityClass,id);
-        return null;
+        T entity = entityManager.find(entityClass,id);
+        return entity;
     }
 
     @Override
