@@ -1,0 +1,7 @@
+/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/src/main/java/br/com/pauloh/model/Client.java
+/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/src/main/java/br/com/pauloh/model/Product.java
+/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/src/main/java/br/com/pauloh/model/Supplier.java
+/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/src/main/java/br/com/pauloh/service/IClientService.java
+/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/src/main/java/br/com/pauloh/service/generic/GenericService.java
+/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/src/main/java/br/com/pauloh/service/generic/IGenericService.java
+/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/src/main/java/br/com/pauloh/service/ClientService.java

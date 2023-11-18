@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: br.com.pauloh.service.ClientServiceTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.264 s <<< FAILURE! - in br.com.pauloh.service.ClientServiceTest
+readTest(br.com.pauloh.service.ClientServiceTest)  Time elapsed: 0.024 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "jakarta.persistence.EntityManager.persist(Object)" because "this.entityManager" is null
+	at br.com.pauloh.service.ClientServiceTest.readTest(ClientServiceTest.java:50)
+
+readTest(br.com.pauloh.service.ClientServiceTest)  Time elapsed: 0.029 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "jakarta.persistence.EntityManager.createQuery(String, java.lang.Class)" because "this.entityManager" is null
+	at br.com.pauloh.service.ClientServiceTest.turnDown(ClientServiceTest.java:23)
+
+updateTest(br.com.pauloh.service.ClientServiceTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "jakarta.persistence.EntityManager.persist(Object)" because "this.entityManager" is null
+	at br.com.pauloh.service.ClientServiceTest.updateTest(ClientServiceTest.java:62)
+
+updateTest(br.com.pauloh.service.ClientServiceTest)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "jakarta.persistence.EntityManager.createQuery(String, java.lang.Class)" because "this.entityManager" is null
+	at br.com.pauloh.service.ClientServiceTest.turnDown(ClientServiceTest.java:23)
+
+createTest(br.com.pauloh.service.ClientServiceTest)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "jakarta.persistence.EntityManager.persist(Object)" because "this.entityManager" is null
+	at br.com.pauloh.service.ClientServiceTest.createTest(ClientServiceTest.java:40)
+
+createTest(br.com.pauloh.service.ClientServiceTest)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "jakarta.persistence.EntityManager.createQuery(String, java.lang.Class)" because "this.entityManager" is null
+	at br.com.pauloh.service.ClientServiceTest.turnDown(ClientServiceTest.java:23)
+
+deleteTest(br.com.pauloh.service.ClientServiceTest)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "jakarta.persistence.EntityManager.persist(Object)" because "this.entityManager" is null
+	at br.com.pauloh.service.ClientServiceTest.deleteTest(ClientServiceTest.java:75)
+
+deleteTest(br.com.pauloh.service.ClientServiceTest)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "jakarta.persistence.EntityManager.createQuery(String, java.lang.Class)" because "this.entityManager" is null
+	at br.com.pauloh.service.ClientServiceTest.turnDown(ClientServiceTest.java:23)
+
