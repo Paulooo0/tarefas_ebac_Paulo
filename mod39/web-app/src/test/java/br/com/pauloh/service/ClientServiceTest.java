@@ -21,7 +21,7 @@ public class ClientServiceTest {
         client = new Client();
         client.setName("test");
         client.setEmail("test@test");
-        client.setPhone(111111111111L);
+        client.setPhone("111111111111");
 
         clientService.create(client);
     }

@@ -21,7 +21,7 @@ public class SupplierServiceTest {
         supplier = new Supplier();
         supplier.setName("test");
         supplier.setEmail("test@test");
-        supplier.setPhone(111111111111L);
+        supplier.setPhone("111111111111");
 
         supplierService.create(supplier);
     }

@@ -7,11 +7,6 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-import br.com.pauloh.model.Client;
-
-
-
-
 public class GenericService<T, E> implements IGenericService<T, E> {
     
     private EntityManagerFactory emf;

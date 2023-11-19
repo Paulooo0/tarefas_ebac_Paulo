@@ -12,22 +12,19 @@
 <body>
     <div class="container">
         <header>
-            <h1>Cadastrar</h1>
-            <li>adm</li>
+            <h1>Menu de cadastro</h1>
+            <li>ADM</li>
         </header>
         <div class="sections">
             <ul>
-                <li><a href="user.html">Usuario</li>
-                <li><a href="product.html">Produto</li>
-                <li><a href="supplier.html">Fornecedor</li>
+                <div class="section">
+                    <a href="client/client.jsp">Cliente</a>
+                    <a href="product/">Produto</a>
+                    <a href="supplier/">Fornecedor</a>
+                </div>
             </ul>
         </div>
-        <form>
-            <input type="text" placeholder="Username" required>
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Senha" required>
-            <input type="submit" value="Cadastrar">
-        </form>
+        <p>Menu administrativo para cadastro de clientes, produtos e fornecedores</p>
     </div>
 </body>
 </html>

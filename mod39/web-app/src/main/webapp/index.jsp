@@ -13,18 +13,18 @@
     <div class="container">
         <header>
             <h1>Menu de cadastro</h1>
-            <li>adm</li>
+            <li>ADM</li>
         </header>
         <div class="sections">
             <ul>
                 <div class="section">
-                    <a href="client.html">Cliente</a>
-                    <a href="product.html">Produto</a>
-                    <a href="supplier.html">Fornecedor</a>
+                    <a href="client/client.jsp">Cliente</a>
+                    <a href="product/">Produto</a>
+                    <a href="supplier/">Fornecedor</a>
                 </div>
             </ul>
         </div>
-        <p>Menu de administrativo para cadastro de clientes, produtos e fornecedores</p>
+        <p>Menu administrativo para cadastro de clientes, produtos e fornecedores</p>
     </div>
 </body>
 </html>

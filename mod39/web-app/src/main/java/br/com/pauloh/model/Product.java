@@ -22,7 +22,7 @@ public class Product {
     private String name;
 
     @Column(name = "bar_code", nullable = false, unique = true)
-    private Long barCode;
+    private String barCode;
 
     @Column(name = "supplier", nullable = false, length = 128)
     private String supplier;

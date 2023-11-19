@@ -20,7 +20,7 @@ public class ProductServiceTest {
 
         product = new Product();
         product.setName("test");
-        product.setBarCode(111111111111L);
+        product.setBarCode("111111111111");
         product.setSupplier("test");
 
         productService.create(product);

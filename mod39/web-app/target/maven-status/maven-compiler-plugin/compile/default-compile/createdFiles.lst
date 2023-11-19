@@ -1,0 +1,15 @@
+br/com/pauloh/service/IClientService.class
+br/com/pauloh/service/ISupplierService.class
+br/com/pauloh/controller/ConfigurationController.class
+br/com/pauloh/service/ProductService.class
+br/com/pauloh/controller/Test.class
+br/com/pauloh/service/generic/GenericService.class
+br/com/pauloh/controller/Hello.class
+br/com/pauloh/model/Client.class
+br/com/pauloh/model/Supplier.class
+br/com/pauloh/service/generic/IGenericService.class
+br/com/pauloh/controller/ClientController.class
+br/com/pauloh/service/SupplierService.class
+br/com/pauloh/service/ClientService.class
+br/com/pauloh/service/IProductService.class
+br/com/pauloh/model/Product.class
